@@ -8,13 +8,21 @@
 
     <include layout="@layout/toolbar" />
 
+    <ImageView
+        android:id="@+id/img"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/undraw_trip_re_f724"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:ignore="ContentDescription" />
+
     <EditText
         android:id="@+id/edt_distancia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
         android:backgroundTint="@color/teal_200"
         android:gravity="center"
         android:hint="@string/distance"
@@ -23,9 +31,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="100dp"
         android:gravity="center"
         android:text="@string/total_kms" />
 
@@ -33,9 +41,9 @@
         android:id="@+id/edt_preco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
         android:backgroundTint="@color/teal_200"
         android:gravity="center"
         android:hint="@string/price"
@@ -44,9 +52,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="100dp"
         android:gravity="center"
         android:text="@string/price_per_liter" />
 
@@ -54,9 +62,9 @@
         android:id="@+id/edt_autonimia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
         android:backgroundTint="@color/teal_200"
         android:gravity="center"
         android:hint="@string/autonomy"
@@ -65,9 +73,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="100dp"
         android:gravity="center"
         android:text="@string/kms_per_liter" />
 
@@ -75,7 +83,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:textColor="@color/teal_700"
         android:gravity="center"
@@ -91,7 +99,6 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/edit_custon"
-        android:padding="16dp"
         android:text="@string/calculate"
         android:textColor="@color/white"
         android:textSize="18sp" />
