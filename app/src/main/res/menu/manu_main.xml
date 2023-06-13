@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/gas_list"
+        android:icon="@drawable/baseline_bar_chart_24"
+        app:showAsAction="always"
+        android:title="Histórico"/>
+    <item android:id="@+id/autonomy"
+        android:icon="@drawable/baseline_local_gas_station_24"
+        app:showAsAction="always"
+        android:title="Autonomia"/>
+    <item android:id="@+id/trip"
+        android:icon="@drawable/baseline_local_gas_station_24"
+        app:showAsAction="always"
+        android:title="Calculo combustivel"/>
+
+</menu>

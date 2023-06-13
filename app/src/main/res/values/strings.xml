@@ -10,5 +10,9 @@
     <string name="total_value">R$ 0</string>
     <string name="calculate">CALCULAR</string>
     <string name="shared">Shared</string>
+    <string name="data">Dom, 28</string>
+    <string name="posto">Posto Tilu</string>
+    <string name="abastecimento">Abastecimento :</string>
+    <string name="valor">RS 50,00</string>
 
 </resources>
